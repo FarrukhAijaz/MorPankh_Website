@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #161210;
+  --foreground: #F0EDE8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Remove default focus outline, add custom */
+*:focus-visible {
+  outline: 2px solid #D4920C;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1C1812;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4920C;
+  border-radius: 0;
+}
+
+/* Smooth image loading */
+img {
+  transition: opacity 0.3s ease;
+}

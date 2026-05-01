@@ -1,0 +1,1170 @@
+================================================================================
+MOR PANKH — DISH COPY
+Edit this file and return it. Each dish has three sections:
+  [THE CRAVING / ORIGIN / FUSION / etc.] — the flavour story
+  [THE CRAFT]  — how it's made
+  [THE TABLE]  — how it's served
+
+Format rules:
+  • Keep the lines that start with DISH:, ID:, SECTION:, and TITLE: exactly as they are
+  • Only edit the text that follows CONTENT: (can span multiple lines until the next SECTION: or ----)
+  • Keep the Urdu titles after the dash (e.g. "— ذائقہ") if you want them, or remove them
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY: APPETIZERS
+────────────────────────────────────────────────────────────────────────────────
+
+DISH: Garlic Mayo Fries
+ID: garlic-mayo-fries
+PRICE: ₺180
+TAGLINE: Simple hai, lekin yaad rehti hai
+SHORT DESC: Golden double-fried fries smothered in house garlic mayo and a chilli drizzle
+
+SECTION: 1
+TITLE: The Craving — ذائقہ
+CONTENT:
+Garlic mayo fries are the universal language of street snacking — no cuisine, no border, no age group immune to their pull. At Mor Pankh we took the classic and pushed it into desi territory: our garlic mayo is spiked with a whisper of roasted cumin and green chilli, making it unmistakably ours.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Fries are blanched at 140°C then flash-fried at 195°C for maximum crisp. The mayo is whipped in-house daily: roasted garlic blended smooth, folded into full-fat mayo with a pinch of chilli flakes, black pepper, and a squeeze of fresh lemon. Drizzled generously over the hot fries so the sauce warms into every crevice.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served in a paper-lined wire basket with a pot of extra garlic mayo on the side. Sprinkled with fresh chives and a shake of paprika. Best consumed immediately — the window between perfect and cold is exactly four minutes.
+
+----
+
+DISH: Samosa Chaat
+ID: samosa-chaat
+PRICE: ₺200
+TAGLINE: Lahore ki galiyon ka sab se famous meetup
+SHORT DESC: Crushed samosas under spiced chickpeas, cool dahi, imli and hari chutney
+
+SECTION: 1
+TITLE: The Craving — ذائقہ
+CONTENT:
+Samosa chaat is where two of Pakistan's greatest street foods collide — the crispy samosa and the explosive world of chaat. Born on the food carts of Lahore's Anarkali and Karachi's Burns Road, this dish is an exercise in controlled chaos: hot, cold, sweet, sour, crunchy, and soft all in one spoonful.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Hot samosas are crushed lightly to expose their filling, then loaded with chickpea chaat (chana cooked with tamarind, pomegranate seeds, and cumin), beaten dahi seasoned with kala namak, a generous pour of aged imli chutney, and our vivid hari chutney. Finished with a blizzard of chaat masala, sev, and fresh coriander.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served immediately in a wide shallow bowl — this dish cannot wait. Eat from the outside in, working through the crispy edges before they surrender to the dahi. Every bite is different. Every bite is correct.
+
+----
+
+DISH: Samose
+ID: samose
+PRICE: ₺160
+TAGLINE: Saat sau saal ki kahani, ek kaatay mein
+SHORT DESC: Hand-folded crispy pastry with spiced aloo-matar, two chutneys
+
+SECTION: 1
+TITLE: The Craving — ذائقہ
+CONTENT:
+The samosa arrived in the subcontinent via Persian and Central Asian traders in the 13th century. Over 700 years, the narrow lanes of Lahore, Karachi, and Hyderabad transformed it from an aristocratic court snack into the most democratic street food in all of South Asia.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Our pastry is hand-rolled to exactly 2mm — thin enough to shatter on the bite, thick enough to contain the filling. The aloo-matar masala is cooked with whole coriander, crushed black pepper, and our house chaat masala blend, then cooled completely before stuffing. Each samosa is sealed with flour paste and fried at 165°C to a deep bronze.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served hot in pairs with house imli chutney and a vivid green coriander-mint chutney, both made fresh every morning. Finished tableside with a pinch of chaat masala and a squeeze of lime. The samosa must be eaten within three minutes. This is an instruction, not a suggestion.
+
+----
+
+DISH: Masala Fries
+ID: masala-fries
+PRICE: ₺170
+TAGLINE: Firangi snack, desi rooh
+SHORT DESC: Double-fried fries tossed in chaat masala, red chilli and dried mango powder
+
+SECTION: 1
+TITLE: The Craving — ذائقہ
+CONTENT:
+Masala fries were born at the street carts of Karachi's Do Darya and Lahore's MM Alam Road — the irresistible collision of Western fast food with desi chaat culture. Within a generation they became the default snack of every food street from Islamabad to Multan.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Double-fried Belgian-style: blanched at 135°C, rested, then crisped at 190°C until deeply golden. Drained and tossed immediately while steam-hot in our dry masala blend of chaat masala, kashmiri red chilli, dried mango powder (amchur), and cumin — so the spices fuse into the crust.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served in a paper cone with imli chutney, hari chutney, and our house masala mayo. Spice levels: Halka (mild), Teekha (medium), or Lahori (maximum — waiver implied). We recommend Lahori.
+
+----
+
+DISH: Pani Poori Shots
+ID: pani-poori-shots
+PRICE: ₺190
+TAGLINE: Ek kaata, ek dhoka, ek muskurahat
+SHORT DESC: Crispy hollow pooris filled with spiced aloo, dunked in chilled imli-pudina water
+
+SECTION: 1
+TITLE: The Craving — ذائقہ
+CONTENT:
+Pani poori — golgappa, puchka, call it what you will — is South Asia's most joyful bite. The hollow crispy shell, the spiced filling, and above all the explosion of ice-cold flavoured water: it is an experience that cannot be replicated by any other food in any other cuisine anywhere on earth.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Semolina pooris are puffed in oil at 190°C until perfectly hollow and golden. Filled with a mixture of spiced mashed potato, boiled chickpeas, and raw onion. Our pani is blended from fresh pudina, coriander, green chilli, black salt, roasted cumin, and tamarind — strained cold and served ice-chilled.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served assembled and ready to dunk in a bowl of our signature pani. Six pooris per portion — eat in one bite. Repeat. There is no dignified way to eat pani poori and that is precisely the point.
+
+----
+
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY: DEALS
+────────────────────────────────────────────────────────────────────────────────
+
+DISH: Deal 1
+ID: deal-1
+PRICE: ₺599
+TAGLINE: Ek deal, poora khaana
+SHORT DESC: A complete meal for one — main course, side, bread and a drink at one great price
+
+SECTION: 1
+TITLE: The Value — قدر
+CONTENT:
+Deal 1 is Mor Pankh's entry-level feast — designed for the solo diner who wants the full experience without compromise. Everything is included: a main, a side, fresh bread, and a cold drink. No hidden extras. No regrets.
+
+SECTION: 2
+TITLE: The Contents — مواد
+CONTENT:
+Curated daily by our kitchen: a rotating main from our grill or karahi station, a side of boondi raita or masala fries, two freshly baked naans, and a chilled drink from our house selection. Quality identical to à la carte — the deal is the price.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served together on a tray with everything arranged for immediate enjoyment. Available all day from opening. Best consumed with company, though perfectly suited for the determined solo diner.
+
+----
+
+DISH: Deal 2
+ID: deal-2
+PRICE: ₺999
+TAGLINE: Do log, ek dastarkhaan, hazaar khushiyaan
+SHORT DESC: The family table — two mains, sides, a full bread basket and two drinks
+
+SECTION: 1
+TITLE: The Value — قدر
+CONTENT:
+Deal 2 is built for sharing. Two mains, two sides, a full basket of fresh tandoor bread, and two drinks — the complete Mor Pankh experience for two people at a price that makes the decision easy.
+
+SECTION: 2
+TITLE: The Contents — مواد
+CONTENT:
+Choose any two mains from our menu, paired with your choice of sides (boondi raita, masala fries, or garden salad). A full bread basket with naan, roti, and paratha fresh from the tandoor. Two chilled drinks of your choice to complete the spread.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served family-style across the table — the way Pakistani food is meant to be eaten. Shared plates, shared bread, shared conversation. Deal 2 is our most popular order and the one most likely to result in plans for a second visit.
+
+----
+
+DISH: Deal 3
+ID: deal-3
+PRICE: ₺1599
+TAGLINE: Poori mehfil, ek hi bill
+SHORT DESC: The full spread — three mains, BBQ platter, bread basket and four drinks for the whole table
+
+SECTION: 1
+TITLE: The Value — قدر
+CONTENT:
+Deal 3 is for when the whole group is gathered and no one wants to decide. Three mains, a full BBQ platter from our sizzling grill, a bread basket, and four drinks. This is the Mor Pankh grand spread, assembled for the table that means business.
+
+SECTION: 2
+TITLE: The Contents — مواد
+CONTENT:
+Three mains of your choice from any category, a mixed BBQ platter with chicken tikka, malai boti, and reshmi kebab, a full bread basket with assorted tandoor breads, and four chilled drinks. Accompanied by a house salad and dipping chutneys.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Arrives in a procession — the BBQ platter first, sizzling and fragrant, followed by mains and bread. Four drinks arrive chilled. This deal requires a minimum of four people and a maximum appetite. We will not judge you for ordering more bread.
+
+----
+
+DISH: Deal 4
+ID: deal-4
+PRICE: ₺2499
+TAGLINE: Mor Pankh ka poora rang, ek dastarkhaan pe
+SHORT DESC: The banquet — full menu selection for 6-8 people, every category represented
+
+SECTION: 1
+TITLE: The Value — قدر
+CONTENT:
+Deal 4 is the Mor Pankh banquet — curated for large gatherings where everyone should taste everything. A selection from every category: appetisers, karahi, biryani, BBQ, tandoor breads, drinks, and dessert. The complete rainbow of what we do, served for a full table.
+
+SECTION: 2
+TITLE: The Contents — مواد
+CONTENT:
+A chef-curated selection from all six menu categories: a full appetiser spread, two karahis, a full biryani handi, a BBQ mixed grill, a complete bread basket, six drinks, and a dessert platter. Every dish prepared to the same standard as individual orders.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Requires advance booking — 24 hours preferred. The full spread arrives in waves across the table: appetisers first, then mains, then BBQ, then dessert. For 6-8 people. For any occasion that deserves a proper mehfil.
+
+----
+
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY: DRINKS
+────────────────────────────────────────────────────────────────────────────────
+
+DISH: Banana Milkshake
+ID: banana-milkshake
+PRICE: ₺190
+TAGLINE: Pehli sip pe muskurahat, poori glass pe sukoon
+SHORT DESC: Thick ripe banana blended with whole milk, vanilla and a crown of whipped cream
+
+SECTION: 1
+TITLE: The Comfort — سکون
+CONTENT:
+The banana milkshake holds a special place in Pakistani café culture — it is the drink of after-school snack stalls, roadside dhabas, and every ice cream parlour from Lahore to Quetta. Ours is made the way it should always be made: with real bananas, real milk, and no shortcuts.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Overripe Pakistani bananas, chosen for their sweetness, blended with chilled whole milk, a scoop of vanilla ice cream, and a pinch of green cardamom. Blended thick — we do not serve a banana-flavoured water. Poured into a chilled tall glass, topped with whipped cream and a single banana chip.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served so thick it requires a wide straw or a long spoon — both are provided. Available plain or with a chocolate drizzle. Pairs exceptionally well with anything from our BBQ section, cutting through the smoke and spice with effortless sweetness.
+
+----
+
+DISH: Doodh Patti Chai
+ID: chai
+PRICE: ₺120
+TAGLINE: Roz ki subah, dil ki zaroorat
+SHORT DESC: Full-milk chai simmered with cardamom, black pepper and cinnamon
+
+SECTION: 1
+TITLE: The Ritual — رسم
+CONTENT:
+Doodh patti — a full-milk brew simmered directly on the flame — is both a ceremonial greeting and a daily ritual observed from Khyber to Karachi, in every dhaba, every drawing room, and every kitchen without exception. To refuse a cup is almost impolite.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Loose-leaf Assam tea added to whole milk at a rolling boil. Cardamom pods, cracked black pepper, a sliver of cinnamon, and a pinch of fennel steep together for twelve minutes. Strained through a fine jali and poured in one confident motion — the mark of a true chai waala.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served in a clay kulhar in cooler months, a frosted steel glass in summer. Each cup arrives with a small square of jaggery on the saucer — the traditional sweetener of the Punjab plains. No sugar added in the cup.
+
+----
+
+DISH: Ice Tea
+ID: ice-tea
+PRICE: ₺160
+TAGLINE: Thandak mein bhi khushboo
+SHORT DESC: House-brewed black tea, chilled and sweetened with honey and fresh lemon
+
+SECTION: 1
+TITLE: The Refreshment — تازگی
+CONTENT:
+Ice tea at Mor Pankh is not from a bottle. We brew our own from premium loose-leaf black tea, chill it over ice, and balance it with raw honey and fresh lemon — a ritual that takes four hours each morning and results in a glass that no commercially produced ice tea can rival.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Ceylon black tea brewed strong, chilled rapidly over ice, then sweetened with Pakistani raw honey (not syrup) and a squeeze of fresh lemon. A mint sprig is added during chilling. Available in three variants: original, peach (with fresh peach purée), and spiced (with cinnamon and cardamom).
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served in a tall glass with extra ice, a lemon wheel, and a sprig of fresh pudina. A slice of lemon on the rim is not decoration — squeeze it in. The spiced variant is our chef's personal recommendation for pairing with the BBQ section.
+
+----
+
+DISH: Mint Margarita
+ID: mint-margarita
+PRICE: ₺170
+TAGLINE: Hari bhali, thand bhari
+SHORT DESC: Blended mint, lime, sugar and soda — a Pakistani street favourite turned elegant
+
+SECTION: 1
+TITLE: The Refreshment — تازگی
+CONTENT:
+The mint margarita is a creation of Pakistan's café culture — specifically the outdoor dining terraces of Lahore's Gulberg and Karachi's Zamzama, where it appeared in the early 2000s and spread to every restaurant in the country within five years. It has no foreign precedent; this drink is entirely Pakistani.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Fresh pudina blended with lime juice, sugar syrup, and a pinch of black salt until brilliantly green and smooth. Poured over crushed ice and topped with chilled soda water. Each batch uses fresh mint picked within 24 hours — the colour and flavour degrade rapidly with age.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served in a wide glass with a salted rim (optional) and a full sprig of mint as garnish. The black salt on the rim amplifies every flavour — we strongly recommend keeping it. Best paired with anything from our Appetizers section.
+
+----
+
+DISH: Season Special
+ID: season-special-drink
+PRICE: ₺180
+TAGLINE: Har hafte nayi khushboo, nayi tazgi
+SHORT DESC: Chef's rotating seasonal drink — changes weekly with fresh local produce
+
+SECTION: 1
+TITLE: The Season — موسم
+CONTENT:
+Mor Pankh's Season Special changes every week based on what the market brings in. In summer: fresh mango lassi, watermelon mint, or rooh afza sharbat. In winter: kesar doodh, thandai, or warm apple cider with spices. The season special is our chef's love letter to the Pakistani calendar.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Prepared fresh each week using peak-season fruit and produce. No concentrates, no off-season produce, no approximations. When mangoes are at their best, we use mangoes. When guavas arrive, we celebrate guavas. The seasonal availability is honest — when it runs out, it runs out.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Ask your server what is currently on — the season special changes and is not always updated on the menu. Available in limited quantities each day. If you are unsure, order it: our track record on seasonal drinks is perfect.
+
+----
+
+DISH: Sweet Lassi
+ID: sweet-lassi
+PRICE: ₺150
+TAGLINE: Punjab ki sab se meeti mohabbat
+SHORT DESC: Churned buffalo-milk dahi with sugar, cardamom and a crown of fresh malai
+
+SECTION: 1
+TITLE: The Ritual — رسم
+CONTENT:
+Lassi predates recorded history in the Punjab plains. Ancient texts from the Indus Valley region mention fermented dairy drinks as both medicine and sustenance. The sweet dahi lassi of Lahore, poured from clay pots by street vendors, is considered among the finest cold beverages in all of South Asia.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Buffalo milk dahi, set for 18 hours in clay matkas, is churned with ice, sugar, and a pinch of green cardamom until perfectly smooth and slightly frothy. Finished with a generous spoonful of fresh malai (cream skimmed from the top of buffalo milk) floated on the surface.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Poured into a tall frosted glass, crowned with malai, and finished with a dried rose petal — the traditional mark of a Lahori lassi house. Served with a long steel spoon. The malai is to be stirred in gradually, not all at once.
+
+----
+
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY: HOT TANDOOR
+────────────────────────────────────────────────────────────────────────────────
+
+DISH: Aloo ka Paratha
+ID: aloo-paratha
+PRICE: ₺195
+TAGLINE: Punjab ki khushboo, haath ka kaam
+SHORT DESC: Whole-wheat flatbread stuffed with spiced mashed potato and green chilli
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+Aloo paratha is the most beloved breakfast in all of Punjab — eaten from Lahore to Amritsar, from truck drivers to university professors, its universality is total. It is the dish most likely to appear in every Pakistani's memory of childhood, glistening with white butter on a cold morning.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Whole wheat atta kneaded with desi ghee. Filling: mashed potato, finely chopped green chilli, fresh coriander, ajwain seeds, and a pinch of amchur for tartness. Stuffed generously, sealed, and pressed flat. Cooked on a hot tawa in desi ghee — both sides, pressing gently to ensure even contact.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served straight from the tawa with dahi, mango achar, and a pat of white butter on top. The butter is not optional. Tear it, dip it, fold it — there are no rules for eating aloo paratha except to eat it hot.
+
+----
+
+DISH: Chicken Cheese Paratha
+ID: chicken-cheese-paratha
+PRICE: ₺260
+TAGLINE: Lahori fusion at its finest
+SHORT DESC: Paratha stuffed with spiced minced chicken and melted cheddar cheese
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+The chicken cheese paratha is a creation of Lahore's Food Street — where the traditional paratha met the city's enthusiasm for bold, indulgent flavours. It is unapologetically modern, unapologetically generous, and has become a staple of Pakistani café breakfast culture in under a decade.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Minced chicken dry-cooked with green chillies, cumin, and coriander, mixed warm with grated cheddar cheese. The filling is sealed inside whole-wheat dough and pressed flat, cooked slowly in desi ghee so the cheese melts completely through the layers. Every bite pulls.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Sliced into triangles, served with a raita whipped with black salt, imli chutney, and a pat of butter. Recommended with a glass of Sweet Lassi — the contrast between spiced chicken, melted cheese, and cold lassi is the entire point.
+
+----
+
+DISH: Garlic Cheese Naan
+ID: garlic-cheese-naan
+PRICE: ₺200
+TAGLINE: Naan ka naya andaaz
+SHORT DESC: Tandoor naan loaded with roasted garlic, melted cheese and green herbs
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+The garlic cheese naan is the intersection of Pakistan's ancient tandoor tradition and its contemporary appetite for bold, crowd-pleasing flavours. It began as a restaurant experiment and became, within years, one of the most-ordered breads in every Pakistani dhaba with a tandoor.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Leavened naan dough brushed with house garlic butter (roasted garlic blended with desi ghee and fresh coriander), topped with grated mozzarella, and slapped into the tandoor at 400°C. The cheese melts and slightly chars at the edges in the 90 seconds it takes to cook — that char is the best part.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Pulled from the tandoor and served immediately, still pulling cheese. Available as a side to any karahi or as a stand-alone snack with house dips. Best consumed in the first two minutes before the cheese sets.
+
+----
+
+DISH: Garlic Naan
+ID: garlic-naan
+PRICE: ₺150
+TAGLINE: Haath ka kaam, aatish ka karishma
+SHORT DESC: Classic tandoor naan brushed with roasted garlic butter and fresh coriander
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+Garlic naan sits at the crossroads of the Persian naan tradition and the Punjabi love for roasted garlic. It is the bread of choice across every karahi house and BBQ restaurant in Pakistan — the one that always runs out first at any shared table.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Leavened dough enriched with yoghurt is slapped by hand onto the inner wall of a 400°C tandoor. As it cooks, roasted garlic butter — made fresh each morning with three whole heads of garlic, desi ghee, and a pinch of salt — is brushed on the moment it emerges.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served hot from the tandoor on a wooden peel, fragrant and glistening. Sprinkled with fresh coriander. Order one extra — there has never been a table at Mor Pankh that ordered too much garlic naan.
+
+----
+
+DISH: Lachha Paratha
+ID: lachha-paratha
+PRICE: ₺185
+TAGLINE: Mughal kitchens se aapke dastarkhaan tak
+SHORT DESC: Multi-layered flaky whole-wheat flatbread cooked in desi ghee
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+The lachha paratha's layered flakiness was perfected in the Mughal royal kitchens. From court it travelled to the common table — and found its most beloved home at the Punjabi breakfast spread, glistening with white butter in the morning light.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Whole wheat atta kneaded with desi ghee, rested 30 minutes. Rolled thin, layered with ghee, folded accordion-style, coiled, rolled out again — this double technique creates 24 visible flaky layers that no machine can replicate.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served straight off the tawa, glistening with ghee, alongside mango achar, smoked green chutney, and fresh dahi. The paratha is torn, never cut.
+
+----
+
+DISH: Phulka Roti
+ID: phulka-roti
+PRICE: ₺80
+TAGLINE: Sab se pehle, sab se zaroori
+SHORT DESC: Thin whole-wheat rotis puffed directly on the flame — light and smoke-kissed
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+The phulka is Pakistan's most fundamental bread — eaten at every meal, in every home, in every province. It predates the tandoor by centuries, cooked directly over flame since the time of the Indus Valley Civilisation. No other bread is as important, as frequent, or as consistently underrated.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Whole wheat atta kneaded smooth and rested. Rolled paper-thin and placed on a hot tawa for 30 seconds each side, then lifted directly onto the open flame for 3-5 seconds — the phulka puffs into a balloon of steam, cooking from the inside. Served immediately.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served hot in a cloth-lined basket, plain or brushed with desi ghee. Served in pairs — order more freely. Phulka is the companion of every karahi, every dal, every curry. It is never the main event but always the most missed when absent.
+
+----
+
+DISH: Plain Naan
+ID: plain-naan
+PRICE: ₺120
+TAGLINE: Saada naan, asli zaiqay ka saathi
+SHORT DESC: Classic tandoor-baked leavened flatbread, soft inside, charred outside
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+The word naan comes from the Persian for "bread" — a reminder of the Central Asian origins of the tandoor tradition. For five centuries, naan has been the inseparable companion of Mughal cuisine, present at the royal dastarkhaan and at every humble dhaba in equal measure.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Leavened dough enriched with yoghurt is rested two hours, stretched by hand, then slapped directly onto the inner wall of a 400°C clay tandoor by our naan-maker — a technique passed from generation to generation without written instruction.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served hot from the tandoor on a wooden peel, brushed with desi ghee. Plain naan is the foundation on which everything else at Mor Pankh is properly experienced. Order generously.
+
+----
+
+DISH: Plain Paratha
+ID: plain-paratha
+PRICE: ₺140
+TAGLINE: Saadgi mein azmat
+SHORT DESC: Layered whole-wheat flatbread cooked in desi ghee on the tawa
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+The plain paratha is the workhorse of the Pakistani breakfast table — eaten with dahi, with halwa, with pickles, with eggs, with whatever is available. Its simplicity is its genius. In a cuisine of bold flavours, the plain paratha provides the perfect neutral counterpoint.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Whole wheat dough layered twice with desi ghee, folded, and cooked on a medium-hot tawa until both sides are evenly golden and the layers have separated into visible, flaky strata. Takes exactly 4 minutes from dough ball to plate.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served with dahi and achar. The foundation of the Mor Pankh breakfast table. Add a fried egg for a complete meal. Add chai for a perfect morning.
+
+----
+
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY: MAIN MENU
+────────────────────────────────────────────────────────────────────────────────
+
+DISH: Beef Lacha Paratha Burger
+ID: beef-lacha-paratha-burger
+PRICE: ₺390
+TAGLINE: Jab do worlds milte hain
+SHORT DESC: Juicy beef patty in a crispy lachha paratha bun with house sauce and pickles
+
+SECTION: 1
+TITLE: The Fusion — ملاپ
+CONTENT:
+The paratha burger is Pakistan's greatest contribution to fusion food — and the most delicious argument that local ingredients always beat imported ones. Replacing the bun with a crispy lachha paratha is not a novelty act; the flaky layers hold the sauce, absorb the juices, and add a texture dimension no bread bun can match.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+A house beef patty of 180g, seasoned with garam masala, black pepper, and onion, grilled over charcoal. Placed in a freshly made lachha paratha with house sauce (a blend of imli, mayo, and green chutney), pickled onions, tomato, and iceberg. The paratha is toasted in ghee before assembly.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served with masala fries and our house dip. Held together with a skewer — remove it before eating or embrace the controlled chaos. Either way, eat it before the paratha absorbs the sauce fully. That is your four-minute window again.
+
+----
+
+DISH: Beef Karahi
+ID: beef-karahi
+PRICE: ₺480
+TAGLINE: KPK ki aag, Mor Pankh ke dastarkhaan pe
+SHORT DESC: Tender beef cooked in iron karahi with fresh tomatoes, ginger and green chillies
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+Beef karahi is the Pashtun claim on Pakistani BBQ and karahi culture — richer and more intense than its chicken counterpart, carrying the deep notes of slow-rendered fat and charred iron that define the frontier kitchen. It is the dish ordered by those who know exactly what they want.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Tender cuts of beef go into a scorching iron karahi with minimal oil, cooking in their own rendered fat first. Fresh tomatoes, julienne ginger, and whole green chillies are added in three intervals — each building a different depth in the sauce. No pre-made masala. Every adjustment made by instinct and heat.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Brought to the table in the cooking karahi, still sizzling. Finished tableside with fresh coriander, lemon, and extra ginger julienne. Accompanied by four fresh rotis. Beef karahi does not wait — neither should you.
+
+----
+
+DISH: Biryani
+ID: biryani
+PRICE: ₺360
+TAGLINE: Mughal dastarkhaan ki shaan, aaj bhi zinda
+SHORT DESC: Dum-sealed Basmati biryani with marinated chicken, saffron and crispy onions
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+Biryani derives from the Persian "birian" — to fry before cooking. It arrived in the subcontinent with the Mughal Emperor Humayun in the 16th century and was refined over 200 years of royal patronage into one of the world's most complex rice dishes. Every Pakistani city guards its own version with fierce civic pride.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Chicken marinated overnight in yoghurt, ginger-garlic, raw papaya, and a 16-spice masala. Aged Basmati parboiled to 70% doneness. Layered with caramelised onions, fresh mint, and saffron milk in a wide handi, sealed with dough and placed over a tawa on low flame for 40 minutes of dum.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+The handi is broken open at the table — a ritual moment when sealed steam escapes carrying the full aroma of saffron and slow-cooked chicken. Served with boondi raita, a wedge of lime, and kachumber salad. Biryani at Mor Pankh is ordered for the table.
+
+----
+
+DISH: Butter Chicken
+ID: butter-chicken
+PRICE: ₺400
+TAGLINE: Taqseem ke baad bhi, dono taraf ka dil
+SHORT DESC: Tandoor-charred chicken in a velvety tomato-cream-ghee makhani sauce
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+Created at Moti Mahal Delhi in the 1950s, murg makhani crossed the Partition Line sewn into the memory of Punjabi cooks who carried it to Lahore, Rawalpindi, and Karachi — where it found a new home and became as Pakistani as it is Indian.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Chicken thighs marinated overnight in full-fat dahi and kashmiri red chilli, roasted in the tandoor for authentic char. The makhani sauce: charred tomatoes, fresh cream, and desi ghee in a copper kadhai — simmered two full hours until silken, finished with crushed kasuri methi.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served in a copper karahi with a ribbon of cream on the surface. Accompanied by butter naan and a side of kachumber salad. This dish connects us to a shared history that no border has been able to erase.
+
+----
+
+DISH: Chef's Specials
+ID: chef-specials
+PRICE: ₺550
+TAGLINE: Aaj ka andaaz, kal ki yaad
+SHORT DESC: Rotating weekly creation by our head chef — ask your server for today's feature
+
+SECTION: 1
+TITLE: The Creation — تخلیق
+CONTENT:
+The Chef's Special is the most honest dish at Mor Pankh — an unscripted expression of whatever the kitchen is most excited about this week. It changes without warning, without apology, and without compromise. It has also never disappointed.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Decided each Monday morning based on the best available seasonal produce and the chef's current inspiration. Could be a new fusion concept, a forgotten regional classic, or a perfected version of a street food favourite. Always made with the same care as our signature dishes — often more.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Ask your server what it is today. They will describe it enthusiastically. Order it. You have our word it is worth trusting.
+
+----
+
+DISH: Chicken Lacha Paratha
+ID: chicken-lacha-paratha
+PRICE: ₺350
+TAGLINE: Street style, restaurant soul
+SHORT DESC: Spiced chicken filling wrapped in a freshly made lachha paratha roll
+
+SECTION: 1
+TITLE: The Fusion — ملاپ
+CONTENT:
+The chicken lacha paratha roll is the Pakistani answer to the wrap — but the paratha is not just a vessel, it is the star. The flaky, layered bread absorbs the spiced chicken juices, carries the chutney, and provides a textural richness no tortilla or flatbread from any other cuisine can offer.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Strips of chicken tikka mixed with sliced pyaz, fresh coriander, green chilli, and a spoonful of our house hari chutney, wrapped inside a freshly made lachha paratha while it is still warm from the tawa. Pressed lightly on the tawa once wrapped to seal the flavours inside.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served sliced in half, wrapped in paper to hold it together. With a side of extra hari chutney and a small bowl of raita. Best eaten with both hands, leaning slightly forward. This is acknowledged by the entire staff as correct form.
+
+----
+
+DISH: Chicken Mandi
+ID: chicken-mandi
+PRICE: ₺540
+TAGLINE: Arabia se Karachi, Karachi se aapki mez
+SHORT DESC: Whole slow-roasted chicken over smouldering wood, rested on saffron rice
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+Mandi originates in Yemen's Hadhramaut region and arrived in Pakistan through the port cities of Karachi and Gwadar along Arabian Sea trade routes. It found an instant, devoted audience in a country that already understood slow-cooked magnificence.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+A whole chicken dry-rubbed with mandi spices — black lime, cardamom, cumin, cinnamon, and saffron — slow-roasted in our sealed taboon-inspired oven over smouldering fruitwood for 3-4 hours until the skin is amber and the meat falls from the bone without persuasion.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+The whole roasted chicken placed on a shared platter of saffron long-grain rice, with house tomato salsa, boondi raita, and mandi shorba. A communal dish — ordered for the table, eaten together, remembered collectively.
+
+----
+
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY: SIZZLING BBQ
+────────────────────────────────────────────────────────────────────────────────
+
+DISH: Chicken Tikka
+ID: chicken-tikka
+PRICE: ₺380
+TAGLINE: Panj hazaar saal puraani aag, aaj bhi wohi zaiqah
+SHORT DESC: Overnight-marinated chicken pieces cooked at 400°C in a clay tandoor
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+Tikka comes from the Pashto for "chunk." Evidence of clay tandoor cooking has been found at Indus Valley sites dating back 5,000 years. The Mughals elevated the technique to art; the streets of Peshawar and Lahore's Gawalmandi brought it back to the people.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Chicken marinated 24 hours in fresh dahi, tandoori masala, ginger-garlic paste, mustard oil, and four dried chillies. Skewered on flat iron seekh and lowered into a 400°C clay tandoor for 8 minutes. The char is not an accident — it is where the flavour lives.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served on a cast iron sizzler plate over sliced onions and green chillies, with fresh lime and three house chutneys. The sizzle on arrival is part of the dish. We designed Mor Pankh so every table hears every sizzle.
+
+----
+
+DISH: Chicken Malai Boti
+ID: chicken-malai-boti
+PRICE: ₺420
+TAGLINE: BBQ ka khamosh shahzada
+SHORT DESC: Cream-marinated chicken cooked in the tandoor — pale ivory outside, melting within
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+Malai boti is the aristocrat of Pakistani BBQ — pale, creamy, mild in colour but devastating in tenderness. On every Pakistani BBQ spread, malai boti is the dish that runs out first.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Chicken marinated 12 hours in fresh cream, hung curd, white pepper, green cardamom, and a whisper of chaat masala. Tandoor temperature deliberately lower — 300°C for 6-7 minutes. The goal: snow-white surface, meltingly juicy interior.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served on a wooden platter with a swirl of fresh cream, hari chutney, naan, and raita. The garnish — a single green chilli placed across the cream — is the universal signal that this dish speaks in whispers. Listen carefully.
+
+----
+
+DISH: Reshmi Kebab
+ID: reshmi-kebab
+PRICE: ₺360
+TAGLINE: Resham jaisa, pyar jaisa
+SHORT DESC: Silky minced chicken seekh kebabs with cream, cheese and aromatic herbs
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+"Reshmi" means silky in Urdu — and the reshmi kebab earns its name completely. A cousin of the seekh kebab but in a different league of tenderness, it was refined in the Mughal courts for the express purpose of producing the softest, most yielding kebab possible.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Minced chicken processed to a paste with raw papaya as a tenderiser, blended with fresh cream, processed cheese, green chilli, coriander, and cardamom. Moulded onto flat seekh and cooked in the tandoor at 280°C — lower than tikka, longer than malai boti — for a texture that barely holds together.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served on a sizzler with sliced onions, a squeeze of lemon, and hari chutney. Eaten with naan — essential to capture the juices. Order one extra seekh per person: they always underestimate how many they will eat.
+
+----
+
+DISH: Tikka Boti
+ID: tikka-boti
+PRICE: ₺400
+TAGLINE: BBQ ka dil, dastarkhaan ki jaan
+SHORT DESC: Cubed chicken pieces double-marinated for an intensely charred, deeply flavoured boti
+
+SECTION: 1
+TITLE: The Origin — اصل
+CONTENT:
+Tikka boti is the lovechild of tikka and boti — cubed chicken with the intense marination of tikka but the concentrated, charred-edged texture of boti. It is the most intensely flavoured item on our BBQ menu and the one most likely to inspire a return visit.
+
+SECTION: 2
+TITLE: The Craft — ہنر
+CONTENT:
+Chicken cubed generously and double-marinated: first in raw papaya paste for 4 hours to tenderise, then in a full tikka marinade of dahi, mustard oil, and 12 spices overnight. Cooked on seekh at 420°C — slightly hotter than standard tikka — for extra char on the outside while remaining juicy inside.
+
+SECTION: 3
+TITLE: The Table — دسترخوان
+CONTENT:
+Served on a sizzler with sliced pyaz, hari mirch, fresh lime, and three chutneys. The portions are generous. The refill rate is the highest of any dish on our menu. We consider this confirmation of quality.
+
+----
+
+
+────────────────────────────────────────────────────────────────────────────────
+DAILY SPECIAL (shown on homepage)
+────────────────────────────────────────────────────────────────────────────────
+
+DISH: Mor Pankh Thali
+ID: mor-pankh-thali
+PRICE: ₺320
+AVAILABILITY: Monday – Friday · 11:00 – 15:00
+BADGE: Daily Special
+TAGLINE: Ek price, poora rang — Mor Pankh ka sab se rangeen khaana.
+DESCRIPTION:
+A rotating daily thali curated by our head chef — featuring a generous main course, boondi raita, freshly baked naan, and a chilled house drink. Full Mor Pankh quality, priced with students and regulars in mind.
+
+INCLUDES:
+- Rotating main course
+- Boondi raita
+- Freshly baked naan
+- Chilled house drink
+
+================================================================================
+SITE COPY — HOME PAGE
+Edit the text blocks below. Keep the KEY: lines unchanged.
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: Philosophy Strip (navy band below hero carousel)
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: home-philosophy-quote
+QUOTE:
+Khaana sirf pet bharney k liye nahi hota — yeh ek zubaan hai, ek yaad hai, ek mohabbat ki wirasat hai jo dastarkhaan se dastarkhaan safar karti hai.
+
+KEY: home-philosophy-attribution
+ATTRIBUTION: Ustaad Rizwan, Head Chef, Mor Pankh
+
+----
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: About Teaser (full-width image section near bottom of home page)
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: home-about-eyebrow
+TEXT: Hamari Kahani
+
+KEY: home-about-heading
+TEXT: Dil se paka, haath se bana, mohabbat se parosa
+
+KEY: home-about-body
+TEXT:
+Mor Pankh ki buniyaad ek khwaab tha — ke asli Pakistani zaiqay, unki poori taareekh aur tehzeeb k saath, ek aisi jagah milein jahaan har koi apna mehsoos kare.
+
+KEY: home-about-button
+TEXT: Our Story →
+
+----
+
+
+================================================================================
+SITE COPY — ABOUT PAGE
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: Hero
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: about-hero-eyebrow
+TEXT: Est. 2019 — Karachi
+
+KEY: about-hero-heading
+TEXT:
+Pyaar, Zaiqah
+aur Taareekh
+
+----
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: 01 — Origin Story
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: about-origin-eyebrow
+TEXT: 01 — Shuruat
+
+KEY: about-origin-heading
+TEXT: Kahan Se Aayi Ye Mehfil
+
+KEY: about-origin-para-1
+TEXT:
+Mor Pankh 2019 mein Karachi ke ek chhote se kamre mein shuru hui — chaar mezen, ek tandoor, aur Ustaad Rizwan ka woh khwaab ke asli Pakistani khana, apni poori taareekh aur tehzeeb ke saath, kisi ek jagah par mile.
+
+KEY: about-origin-para-2
+TEXT:
+"Mehfil" — ek Urdu lafz jo sirf ek jagah ko nahi, ek jazbaat ko bayan karta hai. Yeh woh lamha hai jab log saath baithte hain, khaana khaate hain, aur ek doosre ki baatein sunte hain. Hamara restaurant isi jazbaat ka ghar hai.
+
+----
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: 02 — Atmosphere
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: about-atmosphere-eyebrow
+TEXT: 02 — Maahaul
+
+KEY: about-atmosphere-heading
+TEXT: Dastarkhaan Ka Jazbaa
+
+KEY: about-atmosphere-para-1
+TEXT:
+Pakistani khane ki asli rooh dastarkhaan mein hai — woh dastarkhan jahan rishtedar jama hote hain, jahan chai ki pyaali kabhi khaali nahi hoti, jahan awaazein oonchi hoti hain aur hansna zaroori hota hai.
+
+KEY: about-atmosphere-para-2
+TEXT:
+Mor Pankh ka har kona usi jazbaat se bana hai. Tandoor ki garmi, masalon ki khushbu, aur sizzler plate ki awaaz — yeh sab milakar ek aisa maahaul banate hain jo sirf ghar aur dhabe mein milta tha.
+
+----
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: 03 — Mission
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: about-mission-eyebrow
+TEXT: 03 — Mission
+
+KEY: about-mission-heading
+TEXT: Asli Zaiqay, Adab Ke Saath
+
+KEY: about-mission-para-1
+TEXT:
+Hamara mission hai ke Pakistani cuisine ko woh izzat mile jo use hamesha milni chahiye thi. Har recipe mein hum apne sheher ki taareekh, apne baap daada ka hunar, aur apni mitti ki khushbu shamil karte hain.
+
+KEY: about-mission-para-2
+TEXT:
+We are committed to using authentic spice blends, traditional techniques — clay tandoor, iron karahi, sealed handi — and ingredients sourced with the same care your naani used when she cooked for the mehfil.
+
+----
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: 03 — Values (four cards)
+────────────────────────────────────────────────────────────────────────────────
+
+VALUE: 1
+TITLE: Asl (اصل) — Authenticity
+DESC:
+We source our spices from the same bazaars of Karachi, Lahore, and Multan that generations of Pakistani cooks have trusted. No shortcuts. No substitutions.
+
+VALUE: 2
+TITLE: Hunar (ہنر) — Craft
+DESC:
+Every karahi is cooked fresh to order in iron. Every naan is hand-slapped into the tandoor. Every biryani is sealed in clay. The old ways are the right ways.
+
+VALUE: 3
+TITLE: Mehmaandaari (مہمان نوازی) — Hospitality
+DESC:
+In Pakistani culture, a guest is a gift from God. At Mor Pankh, every diner is treated with the same warmth you would receive in the finest Lahori home.
+
+VALUE: 4
+TITLE: Yaadein (یادیں) — Memory
+DESC:
+Great food tastes like a memory. Every dish on our menu was designed to transport you — to a dhaba in Karachi, a family table in Lahore, a roadside stall in Peshawar.
+
+----
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: 04 — Team
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: about-team-eyebrow
+TEXT: 04 — Log
+
+KEY: about-team-heading
+TEXT: Unke Haath Se Bana
+
+TEAM MEMBER: 1
+NAME: Ustaad Rizwan Ahmed
+ROLE: Head Chef & Co-founder
+BIO:
+Lahore ki Anarkali ki galiyon mein pala, Ustaad Rizwan ne khana pakaana apni dadi ammi se seekha. Teen dahaiyyon ke tajrube ke baad, unhon ne Mor Pankh ki buniyaad rakhi — taake har plate mein woh mohabbat ho jo sirf ghar mein milti thi.
+
+TEAM MEMBER: 2
+NAME: Zainab Rizvi
+ROLE: Creative Director & Co-founder
+BIO:
+Karachi ki DHA mein parhi likhi Zainab ne Mor Pankh ko woh rooh di jo sirf ek Pakistani ghar mein hoti hai — garmi, khushbu, aur woh jazbaa jo kehta hai: yahan aao, baitho, khaao.
+
+TEAM MEMBER: 3
+NAME: Hassan Butt
+ROLE: Head of Hospitality
+BIO:
+Peshawar ki mishmaalaan mehmaandaari ka waaris Hassan, yaqeen rakhta hai ke har mehmaan ko ghar wali izzat milni chahiye. Uske rehte koi bhi mez par akela nahi baithta.
+
+----
+
+
+================================================================================
+SITE COPY — CONTACT PAGE
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: Header
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: contact-eyebrow
+TEXT: Humse Milein
+
+KEY: contact-heading
+TEXT: Baat Karein
+
+----
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: Contact Details
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: contact-address
+LABEL: Address
+VALUE: Sector 15, Korangi Industrial Area
+Karachi, Pakistan
+MAPS-LINK: https://maps.google.com/?q=Korangi+Industrial+Area+Karachi+Pakistan
+
+KEY: contact-phone
+LABEL: Phone
+VALUE: +92 21 3456 7890
+TEL-HREF: tel:+922134567890
+
+KEY: contact-email
+LABEL: Email
+VALUE: info@hamarimehfil.pk
+MAILTO: mailto:info@hamarimehfil.pk
+
+----
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: Opening Hours
+────────────────────────────────────────────────────────────────────────────────
+
+HOURS: Monday – Friday
+- Breakfast  7:00 – 11:00
+- Lunch      11:30 – 15:30
+- Dinner     18:00 – 23:00
+
+HOURS: Saturday – Sunday
+- Breakfast  7:00 – 13:00
+- Dinner     17:00 – 23:30
+
+HOURS: Public Holidays
+- 10:00 – 22:00 (Continuous)
+
+----
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: Map embed (Google Maps iframe)
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: contact-map-iframe-src
+NOTE: Paste the full Google Maps embed URL between the quotes below.
+      To get one: Google Maps → Share → Embed a map → copy the src="..." value.
+VALUE: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.2!2d67.0011!3d24.8607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s
+
+----
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: Booking / Feedback Form intro
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: contact-form-eyebrow
+TEXT: Table Booking & Feedback
+
+KEY: contact-form-heading
+TEXT: Paighaam Bhejein
+
+KEY: contact-form-subtext
+TEXT:
+Table reserve karna ho, apna tajurba share karna ho, ya bas koi سلام — hum khushi se sunenge. Har wave ka jawab milega.
+
+----
+
+
+================================================================================
+SITE COPY — NAVBAR & FOOTER
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: Navbar
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: nav-brand-name
+TEXT: MOR PANKH
+
+KEY: nav-brand-urdu
+TEXT: مور پنکھ
+
+KEY: nav-reserve-button
+TEXT: Reserve
+
+KEY: nav-mobile-reserve-button
+TEXT: Reserve a Table
+
+----
+
+────────────────────────────────────────────────────────────────────────────────
+SECTION: Footer
+────────────────────────────────────────────────────────────────────────────────
+
+KEY: footer-brand-name
+TEXT: MOR PANKH
+
+KEY: footer-brand-urdu-tagline
+TEXT: مور پنکھ — Asli Swad, Rangeen Mehfil
+
+KEY: footer-description
+TEXT:
+Asli Pakistani street food and BBQ — where every colour of flavour comes alive and every table becomes a mehfil.
+
+KEY: footer-copyright-tagline
+TEXT: Asli swad, rangeen mehfil.
+
+----
+
+
+================================================================================
+METADATA (page titles & SEO descriptions)
+================================================================================
+
+PAGE: Home
+TITLE: Mor Pankh — Asli Swad, Rangeen Mehfil
+DESCRIPTION: (currently set in layout.tsx — add one here if you want to change it)
+
+PAGE: Menu
+TITLE: Menu — Mor Pankh
+DESCRIPTION: (currently none set — add one here)
+
+PAGE: About
+TITLE: Hamari Kahani — Mor Pankh
+DESCRIPTION: Mor Pankh ki kahani — Pakistani desi cuisine ki mehabbat, Karachi aur Lahore ki galiyon se aapke dastarkhaan tak.
+
+PAGE: Contact
+TITLE: Contact & Reservations — Mor Pankh
+DESCRIPTION: Mor Pankh mein table reserve karein ya humse baat karein. Karachi, Pakistan.
+
+----
+
+
+================================================================================
+END OF FILE — 34 dishes + 1 daily special + all site copy
+================================================================================
