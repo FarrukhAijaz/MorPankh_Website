@@ -7,12 +7,16 @@ import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-
 import type { MenuItem } from '@/data/menu';
 
 const CATEGORY_LABELS: Record<string, string> = {
-  'appetizers':   'Palate Teasers',
-  'main-menu':    'Heart of the Feast',
-  'hot-tandoor':  'Ancient Flames',
-  'sizzling-bbq': 'The Sizzling Grate',
-  'drinks':       'Liquid Alchemy',
-  'deals':        'Shared Journeys',
+  'roadside-bites':   'Roadside Bites',
+  'signatures':       "Morpankh's Signatures",
+  'flame-junction':   'Flame Junction',
+  'tandoor-express':  'Tandoor Express',
+  'thaali-deals':     'Special Thaali Deals',
+  'weekend-breakfast':'Weekend Breakfast',
+  'weekend-thaali':   'Weekend Thaali',
+  'heritage-sweets':  'Heritage Sweets',
+  'drinks':           'Drinks',
+  'brainy-bites':     'Brainy Bites',
 };
 
 interface DishDetailClientProps {
@@ -24,6 +28,7 @@ export default function DishDetailClient({ item }: DishDetailClientProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const videoOverlayRef = useRef<HTMLDivElement>(null);
   const [activeSection, setActiveSection] = useState(0);
+  const hasSections = !!item.sections;
 
   // Fade out near end, restart, fade back in
   const handleTimeUpdate = () => {
@@ -54,20 +59,21 @@ export default function DishDetailClient({ item }: DishDetailClientProps) {
 
   // Drive section changes from scroll — one section in the DOM at a time
   useMotionValueEvent(scrollYProgress, 'change', (v) => {
+    if (!hasSections) return;
     const next = v < 0.38 ? 0 : v < 0.72 ? 1 : 2;
     setActiveSection((prev) => (prev !== next ? next : prev));
   });
 
-  const sectionData = [
-    item.sections.nature,
-    item.sections.creation,
-    item.sections.facilities,
-  ];
+  const sectionData = hasSections ? [
+    item.sections!.nature,
+    item.sections!.creation,
+    item.sections!.facilities,
+  ] : [];
 
   return (
     <>
       {/* Sticky scroll container */}
-      <div ref={containerRef} style={{ height: '480vh' }} className="relative">
+      <div ref={containerRef} style={{ height: hasSections ? '480vh' : '100dvh' }} className="relative">
         <div className="sticky top-0 overflow-hidden" style={{ height: '100dvh' }}>
 
           {/* Background — video or image */}
@@ -128,64 +134,84 @@ export default function DishDetailClient({ item }: DishDetailClientProps) {
             </div>
           </div>
 
-          {/* One section at a time — AnimatePresence mode="wait" prevents overlap */}
+          {/* Section content — scroll-driven when sections exist, static otherwise */}
           <div className="absolute inset-0 flex items-center justify-center px-8 lg:px-20 z-10 pointer-events-none">
-            <AnimatePresence mode="wait">
+            {hasSections ? (
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={activeSection}
+                  initial={{ opacity: 0, y: 28 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+                  className="max-w-2xl w-full text-center"
+                >
+                  <p className="text-yellow text-[10px] tracking-[0.35em] uppercase mb-4">
+                    {String(activeSection + 1).padStart(2, '0')}
+                  </p>
+                  <h2 className="font-serif text-4xl lg:text-6xl text-white mb-6">
+                    {sectionData[activeSection].title}
+                  </h2>
+                  <p className="text-white/75 text-base lg:text-lg leading-relaxed font-light">
+                    {sectionData[activeSection].content}
+                  </p>
+                </motion.div>
+              </AnimatePresence>
+            ) : (
               <motion.div
-                key={activeSection}
-                initial={{ opacity: 0, y: 28 }}
+                initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -20 }}
-                transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+                transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
                 className="max-w-2xl w-full text-center"
               >
-                <p className="text-yellow text-[10px] tracking-[0.35em] uppercase mb-4">
-                  {String(activeSection + 1).padStart(2, '0')}
+                <p className="text-white/80 text-base lg:text-xl leading-relaxed font-light mb-8">
+                  {item.shortDescription}
                 </p>
-                <h2 className="font-serif text-4xl lg:text-6xl text-white mb-6">
-                  {sectionData[activeSection].title}
-                </h2>
-                <p className="text-white/75 text-base lg:text-lg leading-relaxed font-light">
-                  {sectionData[activeSection].content}
+                <p className="font-serif text-lg lg:text-2xl text-yellow/80 italic">
+                  &ldquo;{item.tagline}&rdquo;
                 </p>
               </motion.div>
-            </AnimatePresence>
+            )}
           </div>
 
-          {/* Right-side progress indicator */}
-          <div className="absolute right-6 lg:right-10 top-1/2 -translate-y-1/2 flex flex-col items-center gap-3 z-20">
-            {sectionData.map((_, i) => (
-              <div
-                key={i}
-                className="rounded-full transition-all duration-500"
-                style={{
-                  width: 5,
-                  height: activeSection === i ? 24 : 5,
-                  backgroundColor:
-                    activeSection === i
-                      ? 'rgba(212, 146, 12, 0.9)'
-                      : 'rgba(240, 168, 40, 0.35)',
-                }}
-              />
-            ))}
-          </div>
+          {/* Right-side progress indicator — only when sections exist */}
+          {hasSections && (
+            <div className="absolute right-6 lg:right-10 top-1/2 -translate-y-1/2 flex flex-col items-center gap-3 z-20">
+              {sectionData.map((_, i) => (
+                <div
+                  key={i}
+                  className="rounded-full transition-all duration-500"
+                  style={{
+                    width: 5,
+                    height: activeSection === i ? 24 : 5,
+                    backgroundColor:
+                      activeSection === i
+                        ? 'rgba(212, 146, 12, 0.9)'
+                        : 'rgba(240, 168, 40, 0.35)',
+                  }}
+                />
+              ))}
+            </div>
+          )}
         </div>
       </div>
 
-      {/* Below-fold detail cards */}
+      {/* Below-fold detail cards — only when sections exist */}
       <section className="bg-cream py-20 lg:py-28 px-8 lg:px-20">
         <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
-            {sectionData.map((data, i) => (
-              <div key={i}>
-                <p className="text-yellow text-[10px] tracking-[0.3em] uppercase mb-3">
-                  {String(i + 1).padStart(2, '0')}
-                </p>
-                <h3 className="font-serif text-xl text-navy mb-4">{data.title}</h3>
-                <p className="text-gray-mid text-sm leading-relaxed">{data.content}</p>
-              </div>
-            ))}
-          </div>
+          {hasSections && (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+              {sectionData.map((data, i) => (
+                <div key={i}>
+                  <p className="text-yellow text-[10px] tracking-[0.3em] uppercase mb-3">
+                    {String(i + 1).padStart(2, '0')}
+                  </p>
+                  <h3 className="font-serif text-xl text-navy mb-4">{data.title}</h3>
+                  <p className="text-gray-mid text-sm leading-relaxed">{data.content}</p>
+                </div>
+              ))}
+            </div>
+          )}
 
           <div className="border-t border-gray-light pt-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div>

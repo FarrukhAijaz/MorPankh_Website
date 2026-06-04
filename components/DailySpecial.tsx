@@ -3,9 +3,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { studentSpecial } from '@/data/menu';
+import type { MenuItem } from '@/data/menu';
 
-export default function DailySpecial() {
+interface DailySpecialProps {
+  dish: MenuItem;
+}
+
+export default function DailySpecial({ dish }: DailySpecialProps) {
   return (
     <section className="bg-cream py-24 lg:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -16,8 +20,8 @@ export default function DailySpecial() {
           transition={{ duration: 0.7 }}
           className="mb-14"
         >
-          <p className="text-xs tracking-[0.3em] uppercase text-gray-mid mb-3">Daily Feature</p>
-          <h2 className="font-serif text-4xl lg:text-5xl text-white">Today&apos;s Special</h2>
+          <p className="text-xs tracking-[0.3em] uppercase text-gray-mid mb-3">Today&apos;s Feature</p>
+          <h2 className="font-serif text-4xl lg:text-5xl text-white">Morpankh&apos;s Signature Special Dish</h2>
         </motion.div>
 
         <motion.div
@@ -30,8 +34,8 @@ export default function DailySpecial() {
           {/* Image */}
           <div className="relative h-72 lg:h-auto min-h-[360px]">
             <Image
-              src={studentSpecial.image}
-              alt={studentSpecial.name}
+              src={dish.image}
+              alt={dish.name}
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -44,33 +48,23 @@ export default function DailySpecial() {
             <div className="flex items-center gap-3 mb-8">
               <span className="inline-flex items-center gap-2 bg-orange text-white text-[10px] tracking-[0.25em] uppercase px-4 py-2 font-medium">
                 <span className="w-1.5 h-1.5 rounded-full bg-white/60 inline-block" />
-                {studentSpecial.badge}
+                Signature Dish
               </span>
             </div>
 
-            <h3 className="font-serif text-3xl lg:text-4xl text-white mb-3">{studentSpecial.name}</h3>
-            <p className="text-xs tracking-[0.2em] uppercase text-orange mb-6">{studentSpecial.availability}</p>
-            <p className="text-gray-mid leading-relaxed mb-8 max-w-md">{studentSpecial.description}</p>
-
-            <ul className="space-y-2 mb-10">
-              {studentSpecial.includes.map((item) => (
-                <li key={item} className="flex items-center gap-3 text-sm text-gray-mid">
-                  <span className="w-4 h-px bg-orange flex-shrink-0" />
-                  {item}
-                </li>
-              ))}
-            </ul>
+            <h3 className="font-serif text-3xl lg:text-4xl text-white mb-6">{dish.name}</h3>
+            <p className="text-gray-mid leading-relaxed mb-10 max-w-md">{dish.shortDescription}</p>
 
             <div className="flex items-center gap-8">
               <div>
                 <span className="text-xs tracking-widest uppercase text-gray-mid block mb-1">Price</span>
-                <span className="font-serif text-4xl text-white">{studentSpecial.price}</span>
+                <span className="font-serif text-4xl text-white">{dish.price}</span>
               </div>
-<Link
-                href="/menu"
+              <Link
+                href={`/menu/${dish.id}`}
                 className="group inline-flex items-center gap-3 bg-orange text-white text-xs tracking-[0.18em] uppercase px-8 py-3.5 hover:bg-magenta transition-colors duration-500"
               >
-                Explore Menu
+                View Dish
                 <span className="translate-x-0 group-hover:translate-x-1 transition-transform duration-300">→</span>
               </Link>
             </div>

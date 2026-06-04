@@ -4,16 +4,15 @@ import Image from 'next/image';
 const footerLinks = {
   Explore: [
     { label: 'Menu',     href: '/menu' },
-    { label: 'About Us', href: '/about' },
     { label: 'Contact',  href: '/contact' },
   ],
   Menu: [
-    { label: 'Palate Teasers',     href: '/menu?cat=appetizers' },
-    { label: 'Heart of the Feast',  href: '/menu?cat=main-menu' },
-    { label: 'Ancient Flames',      href: '/menu?cat=hot-tandoor' },
-    { label: 'The Sizzling Grate',  href: '/menu?cat=sizzling-bbq' },
-    { label: 'Liquid Alchemy',      href: '/menu?cat=drinks' },
-    { label: 'Shared Journeys',     href: '/menu?cat=deals' },
+    { label: 'Roadside Bites',          href: '/menu?cat=roadside-bites' },
+    { label: "Morpankh's Signatures",   href: '/menu?cat=signatures' },
+    { label: 'Flame Junction',           href: '/menu?cat=flame-junction' },
+    { label: 'Tandoor Express',          href: '/menu?cat=tandoor-express' },
+    { label: 'Thaali Deals',             href: '/menu?cat=thaali-deals' },
+    { label: 'Drinks',                   href: '/menu?cat=drinks' },
   ],
 };
 

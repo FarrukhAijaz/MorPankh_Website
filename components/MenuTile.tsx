@@ -6,27 +6,30 @@ import { motion } from 'framer-motion';
 import type { MenuItem } from '@/data/menu';
 
 const CATEGORY_LABELS: Record<string, string> = {
-  'appetizers':   'Palate Teasers',
-  'main-menu':    'Heart of the Feast',
-  'hot-tandoor':  'Ancient Flames',
-  'sizzling-bbq': 'The Sizzling Grate',
-  'drinks':       'Liquid Alchemy',
-  'deals':        'Shared Journeys',
+  'roadside-bites':    'Roadside Bites',
+  'signatures':        "Morpankh's Signatures",
+  'flame-junction':    'Flame Junction',
+  'tandoor-express':   'Tandoor Express',
+  'thaali-deals':      'Thaali Deals',
+  'weekend-breakfast': 'Weekend Breakfast',
+  'weekend-thaali':    'Weekend Thaali',
+  'heritage-sweets':   'Heritage Sweets',
+  'drinks':            'Drinks',
+  'brainy-bites':      'Brainy Bites',
 };
 
 interface MenuTileProps {
   item: MenuItem;
-  index?: number;
 }
 
-export default function MenuTile({ item, index = 0 }: MenuTileProps) {
+export default function MenuTile({ item }: MenuTileProps) {
   return (
     <Link href={`/menu/${item.id}`} className="block">
     <motion.article
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, scale: 0.95 }}
-      transition={{ duration: 0.5, delay: index * 0.06, ease: [0.22, 1, 0.36, 1] }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.15 }}
       className="group relative aspect-square overflow-hidden bg-secondary cursor-pointer"
     >
       {/* Background image */}

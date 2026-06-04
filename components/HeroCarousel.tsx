@@ -4,9 +4,25 @@ import { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { heroItems } from '@/data/menu';
+import { menuItems } from '@/data/menu';
 
-const slides = heroItems.slice(0, 6);
+const CATEGORY_LABELS: Record<string, string> = {
+  'roadside-bites':    'Roadside Bites',
+  'signatures':        "Morpankh's Signatures",
+  'flame-junction':    'Flame Junction',
+  'tandoor-express':   'Tandoor Express',
+  'thaali-deals':      'Thaali Deals',
+  'weekend-breakfast': 'Weekend Breakfast',
+  'weekend-thaali':    'Weekend Thaali',
+  'heritage-sweets':   'Heritage Sweets',
+  'drinks':            'Drinks',
+  'brainy-bites':      'Brainy Bites',
+};
+
+const signatureItems = menuItems.filter((i) => i.category === 'signatures');
+const daySeed = Math.floor(Date.now() / 86400000);
+const slideStart = signatureItems.length > 0 ? daySeed % signatureItems.length : 0;
+const slides = [...signatureItems.slice(slideStart), ...signatureItems.slice(0, slideStart)].slice(0, 6);
 
 export default function HeroCarousel() {
   const [current, setCurrent] = useState(0);
@@ -23,7 +39,7 @@ export default function HeroCarousel() {
 
   useEffect(() => {
     if (paused) return;
-    const id = setInterval(next, 3500);
+    const id = setInterval(next, 2000);
     return () => clearInterval(id);
   }, [next, paused]);
 
@@ -76,7 +92,7 @@ export default function HeroCarousel() {
             >
               {/* Category pill */}
               <span className="inline-block text-[10px] tracking-[0.3em] uppercase text-yellow border border-orange/60 px-4 py-1.5 mb-4 w-fit">
-                {item.category === 'appetizers' ? 'Palate Teasers' : item.category === 'main-menu' ? 'Heart of the Feast' : item.category === 'hot-tandoor' ? 'Ancient Flames' : item.category === 'sizzling-bbq' ? 'The Sizzling Grate' : item.category === 'drinks' ? 'Liquid Alchemy' : item.category === 'deals' ? 'Shared Journeys' : item.category}
+                {CATEGORY_LABELS[item.category] ?? item.category}
               </span>
 
               {/* Title */}

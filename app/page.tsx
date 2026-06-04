@@ -3,48 +3,70 @@ import DailySpecial from '@/components/DailySpecial';
 import ScrollReveal from '@/components/ScrollReveal';
 import Image from 'next/image';
 import Link from 'next/link';
-import { menuItems } from '@/data/menu';
+import { menuItems, type MenuCategory } from '@/data/menu';
 
 const FEATURED_CATEGORIES = [
   {
-    label: 'Ancient Flames',
-    slug: 'hot-tandoor',
-    image: '/images/menu/Hot%20Tandoor/chicken%20cheese%20paratha.jpg',
+    label: "Morpankh's Signatures",
+    slug: 'signatures',
+    image: '/images/menu/Morpankh%27s-Signatures/Butter-Chicken.png',
   },
   {
-    label: 'Heart of the Feast',
-    slug: 'main-menu',
-    image: '/images/menu/Main%20Menu/beef-karahi-step7.jpg',
+    label: 'Flame Junction',
+    slug: 'flame-junction',
+    image: '/images/menu/Flame-Junction/Chicken-Tikka.png',
   },
   {
-    label: 'The Sizzling Grate',
-    slug: 'sizzling-bbq',
-    image: '/images/menu/Sizzling%20BBQ/chicken%20tikka.avif',
+    label: 'Roadside Bites',
+    slug: 'roadside-bites',
+    image: '/images/menu/Roadside-Bites/Garlic-Mayo-Fries.png',
   },
 ];
 
+const CATEGORY_LABELS: Record<string, string> = {
+  'roadside-bites':    'Roadside Bites',
+  'signatures':        "Morpankh's Signatures",
+  'flame-junction':    'Flame Junction',
+  'tandoor-express':   'Tandoor Express',
+  'thaali-deals':      'Thaali Deals',
+  'weekend-breakfast': 'Weekend Breakfast',
+  'weekend-thaali':    'Weekend Thaali',
+  'heritage-sweets':   'Heritage Sweets',
+  'drinks':            'Drinks',
+  'brainy-bites':      'Brainy Bites',
+};
+
+const ALL_CATEGORIES: MenuCategory[] = [
+  'roadside-bites', 'signatures', 'flame-junction', 'tandoor-express',
+  'thaali-deals', 'weekend-breakfast', 'weekend-thaali', 'heritage-sweets',
+  'drinks', 'brainy-bites',
+];
+
+function getDailySelections() {
+  const today = new Date();
+  const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+
+  const signatures = menuItems.filter((i) => i.category === 'signatures');
+  const dailyDish = signatures[seed % signatures.length];
+
+  const chefSelections = ALL_CATEGORIES.flatMap((cat) => {
+    const items = menuItems.filter((i) => i.category === cat);
+    if (items.length === 0) return [];
+    const start = seed % items.length;
+    return [...items.slice(start), ...items.slice(0, start)].slice(0, 2);
+  });
+
+  return { dailyDish, chefSelections };
+}
+
 export default function HomePage() {
-  const featuredItems = menuItems.filter((i) => i.isHero);
+  const { dailyDish, chefSelections } = getDailySelections();
 
   return (
     <>
       <HeroCarousel />
 
-      {/* Philosophy strip */}
-      <section className="bg-navy py-12">
-        <div className="max-w-5xl mx-auto px-6 lg:px-12 text-center">
-          <p className="font-serif text-2xl lg:text-3xl text-white leading-relaxed">
-            &ldquo;Khaana sirf pet bharney k liye nahi hota — yeh ek zubaan hai,
-            ek yaad hai, ek mohabbat ki wirasat hai jo dastarkhaan se dastarkhaan
-            safar karti hai.&rdquo;
-          </p>
-          <p className="mt-4 text-xs tracking-[0.3em] uppercase text-yellow/70">
-            — Ustaad Rizwan, Head Chef, Mor Pankh
-          </p>
-        </div>
-      </section>
-
-      <DailySpecial />
+      <DailySpecial dish={dailyDish} />
 
       {/* Explore by Category */}
       <section className="bg-fawn py-24 lg:py-32">
@@ -70,30 +92,30 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Signature Dishes */}
+      {/* Chef's Selection */}
       <section className="bg-sky py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <ScrollReveal className="mb-14 flex items-end justify-between">
             <div>
               <p className="text-xs tracking-[0.3em] uppercase text-gray-mid mb-3">Chef&apos;s Selection</p>
-              <h2 className="font-serif text-4xl lg:text-5xl text-white">Signature Dishes</h2>
+              <h2 className="font-serif text-4xl lg:text-5xl text-white">Today&apos;s Picks</h2>
             </div>
             <Link href="/menu" className="hidden md:inline-flex items-center gap-2 text-xs tracking-[0.18em] uppercase text-gray-mid hover:text-white border-b border-gray-mid/40 pb-0.5 transition-colors duration-300">View all →</Link>
           </ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {featuredItems.map((item, i) => (
-              <ScrollReveal key={item.id} delay={i * 0.1}>
+            {chefSelections.map((item, i) => (
+              <ScrollReveal key={item.id} delay={(i % 4) * 0.08}>
                 <Link href={`/menu/${item.id}`} className="group relative flex gap-5 bg-fawn p-5 hover:shadow-md transition-shadow duration-400">
                   <div className="relative w-28 h-28 flex-shrink-0 overflow-hidden">
                     <Image src={item.image} alt={item.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="112px" />
                   </div>
                   <div className="flex flex-col justify-center">
-                    <p className="text-[10px] tracking-[0.25em] uppercase text-orange mb-1">{item.category.replace('-', ' ')}</p>
+                    <p className="text-[10px] tracking-[0.25em] uppercase text-orange mb-1">{CATEGORY_LABELS[item.category] ?? item.category}</p>
                     <h3 className="font-serif text-xl text-white mb-2">{item.name}</h3>
                     <p className="text-gray-mid text-xs leading-relaxed line-clamp-2">{item.shortDescription}</p>
                     <p className="font-serif text-lg text-white mt-2">{item.price}</p>
                   </div>
-                  <span className="absolute bottom-5 right-5 text-xs tracking-widest uppercase text-gray-light group-hover:text-orange transition-colors duration-300">Deep Dive →</span>
+                  <span className="absolute bottom-5 right-5 text-xs tracking-widest uppercase text-gray-light group-hover:text-orange transition-colors duration-300">View →</span>
                 </Link>
               </ScrollReveal>
             ))}
@@ -101,7 +123,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* About teaser */}
+      {/*
       <section className="relative py-32 lg:py-40 overflow-hidden">
         <Image src="/images/menu/Main%20Menu/chicken%20mandi.jpg" alt="Mor Pankh kitchen" fill className="object-cover" sizes="100vw" />
         <div className="absolute inset-0 bg-navy/75" />
@@ -114,6 +136,7 @@ export default function HomePage() {
           </ScrollReveal>
         </div>
       </section>
+      */}
     </>
   );
 }

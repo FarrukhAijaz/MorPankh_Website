@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, useRouter } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
 import { menuItems, type MenuCategory } from '@/data/menu';
 import MenuTile from './MenuTile';
@@ -9,17 +9,22 @@ import MenuTile from './MenuTile';
 type FilterCat = MenuCategory;
 
 const CATEGORIES: { value: FilterCat; label: string }[] = [
-  { value: 'appetizers',   label: 'Palate Teasers' },
-  { value: 'main-menu',    label: 'Heart of the Feast' },
-  { value: 'hot-tandoor',  label: 'Ancient Flames' },
-  { value: 'sizzling-bbq', label: 'The Sizzling Grate' },
-  { value: 'drinks',       label: 'Liquid Alchemy' },
-  { value: 'deals',        label: 'Shared Journeys' },
+  { value: 'roadside-bites',    label: 'Roadside Bites' },
+  { value: 'signatures',        label: "Morpankh's Signatures" },
+  { value: 'flame-junction',    label: 'Flame Junction' },
+  { value: 'tandoor-express',   label: 'Tandoor Express' },
+  { value: 'thaali-deals',      label: 'Thaali Deals' },
+  { value: 'weekend-breakfast', label: 'Weekend Breakfast' },
+  { value: 'weekend-thaali',    label: 'Weekend Thaali' },
+  { value: 'heritage-sweets',   label: 'Heritage Sweets' },
+  { value: 'drinks',            label: 'Drinks' },
+  { value: 'brainy-bites',      label: 'Brainy Bites' },
 ];
 
 export default function MenuGrid() {
   const searchParams = useSearchParams();
-  const initialCat = (searchParams.get('cat') as FilterCat) ?? 'appetizers';
+  const router = useRouter();
+  const initialCat = (searchParams.get('cat') as FilterCat) ?? 'roadside-bites';
   const [active, setActive] = useState<FilterCat>(initialCat);
 
   useEffect(() => {
@@ -36,7 +41,7 @@ export default function MenuGrid() {
         {CATEGORIES.map(({ value, label }) => (
           <button
             key={value}
-            onClick={() => setActive(value)}
+            onClick={() => router.push(`/menu?cat=${value}`, { scroll: false })}
             className={`relative text-xs tracking-[0.18em] uppercase px-5 py-2.5 transition-all duration-350 ${
               active === value
                 ? 'text-white'
@@ -61,8 +66,8 @@ export default function MenuGrid() {
         layout
       >
         <AnimatePresence mode="popLayout">
-          {filtered.map((item, i) => (
-            <MenuTile key={item.id} item={item} index={i} />
+          {filtered.map((item) => (
+            <MenuTile key={item.id} item={item} />
           ))}
         </AnimatePresence>
       </motion.div>
