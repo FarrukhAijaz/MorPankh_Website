@@ -24,7 +24,6 @@ export interface MenuItem {
   tagline: string;
   image: string;
   heroImage: string;
-  heroVideo?: string;
   sections?: {
     nature: MenuSection;
     creation: MenuSection;
@@ -159,7 +158,6 @@ export const menuItems: MenuItem[] = [
     tagline: 'BBQ aur Biryani ka meeting point',
     image: '/images/menu/Morpankh%27s-Signatures/Chicken-Tikka-Biryani.png',
     heroImage: '/images/menu/Morpankh%27s-Signatures/Chicken-Tikka-Biryani.png',
-    heroVideo: '/images/Videos/Biryani.mp4',
     isHero: true,
   },
   {
@@ -275,7 +273,6 @@ export const menuItems: MenuItem[] = [
     tagline: 'Panj hazaar saal puraani aag, aaj bhi wohi zaiqah',
     image: '/images/menu/Flame-Junction/Chicken-Tikka.png',
     heroImage: '/images/menu/Flame-Junction/Chicken-Tikka.png',
-    heroVideo: '/images/Videos/Chicken%20tikka.mp4',
     isHero: true,
   },
   {
@@ -484,8 +481,8 @@ export const menuItems: MenuItem[] = [
     price: '₺1190',
     shortDescription: 'Serves 2–3. Beef Nihari, Channa masala + aloo bhaji + Suji Halwa, choice of palak chicken OR bhunna chicken qeema, 2 fried puris + 2 parathas, 2 eggs omelette, 2 cups Karak Chai.',
     tagline: 'Subah ka poora rang, ek hi thaal mein',
-    image: '/images/menu/Weekend-Special-Thaali/Grand%20nashta%20thaal.jpeg',
-    heroImage: '/images/menu/Weekend-Special-Thaali/Grand%20nashta%20thaal.jpeg',
+    image: '/images/menu/Weekend-Special-Thaali/Nashta-Thaal.png',
+    heroImage: '/images/menu/Weekend-Special-Thaali/Nashta-Thaal.png',
   },
   {
     id: 'grand-nashta-thaal',
@@ -516,8 +513,8 @@ export const menuItems: MenuItem[] = [
     price: '₺70',
     shortDescription: 'A warm comforting dessert made with roasted semolina, pure ghee, cardamom and nuts.',
     tagline: 'Ghar ki meethas, dil ki thandak',
-    image: '/images/menu/The-Heritage-Sweets/Shahi-Tukray.png',
-    heroImage: '/images/menu/The-Heritage-Sweets/Shahi-Tukray.png',
+    image: '/images/menu/The-Heritage-Sweets/Suji-Halwa.png',
+    heroImage: '/images/menu/The-Heritage-Sweets/Suji-Halwa.png',
   },
   {
     id: 'gulab-jamun',
@@ -679,8 +676,8 @@ export const menuItems: MenuItem[] = [
     price: '₺40',
     shortDescription: 'Chilled mineral water bottle.',
     tagline: 'Zindagi ki buniyaad',
-    image: '/images/menu/Drinks/Water.avif',
-    heroImage: '/images/menu/Drinks/Water.avif',
+    image: '/images/menu/Drinks/Water.jpg',
+    heroImage: '/images/menu/Drinks/Water.jpg',
   },
 
   // ── BRAINY BITES (BAKERY & DESSERTS) ──────────────────────────────────────
@@ -691,8 +688,8 @@ export const menuItems: MenuItem[] = [
     price: '₺190',
     shortDescription: 'Soft, freshly baked roll swirled with cinnamon sugar and topped with cream cheese glaze. 1 slice.',
     tagline: 'Daalchini ki khushboo, ghar yaad dilaye',
-    image: '/images/menu/Main%20Menu/chef%20specials.webp',
-    heroImage: '/images/menu/Main%20Menu/chef%20specials.webp',
+    image: '/images/menu/Brainy-Bites/Cinnamon-Roll.png',
+    heroImage: '/images/menu/Brainy-Bites/Cinnamon-Roll.png',
   },
   {
     id: 'banana-bread',
@@ -701,8 +698,8 @@ export const menuItems: MenuItem[] = [
     price: '₺120',
     shortDescription: 'Moist, dense loaf baked with ripe bananas and a hint of vanilla. 1 slice.',
     tagline: 'Bakery ka sabse gehri mohabbat',
-    image: '/images/menu/Main%20Menu/chef%20specials.webp',
-    heroImage: '/images/menu/Main%20Menu/chef%20specials.webp',
+    image: '/images/menu/Brainy-Bites/Banana-Bread.png',
+    heroImage: '/images/menu/Brainy-Bites/Banana-Bread.png',
   },
   {
     id: 'tom-and-jerry-souffle-cake',
@@ -711,8 +708,8 @@ export const menuItems: MenuItem[] = [
     price: '₺150',
     shortDescription: 'Light, airy Japanese-style soufflé cake — impossibly soft and delicate. 1 slice.',
     tagline: 'Itna narm, ke dil pighal jaye',
-    image: '/images/menu/Main%20Menu/chef%20specials.webp',
-    heroImage: '/images/menu/Main%20Menu/chef%20specials.webp',
+    image: '/images/menu/Brainy-Bites/Tom-&-Jerry-Cake.png',
+    heroImage: '/images/menu/Brainy-Bites/Tom-&-Jerry-Cake.png',
   },
   {
     id: 'carrot-cake',
@@ -721,8 +718,8 @@ export const menuItems: MenuItem[] = [
     price: '₺180',
     shortDescription: 'Spiced carrot cake layered with rich cream cheese frosting. 1 slice.',
     tagline: 'Gajar mein chhupi hai meethas',
-    image: '/images/menu/Main%20Menu/chef%20specials.webp',
-    heroImage: '/images/menu/Main%20Menu/chef%20specials.webp',
+    image: '/images/menu/Brainy-Bites/Carrot-Cake.png',
+    heroImage: '/images/menu/Brainy-Bites/Carrot-Cake.png',
   },
   {
     id: 'nutella-cookies',
@@ -731,8 +728,8 @@ export const menuItems: MenuItem[] = [
     price: '₺160',
     shortDescription: 'Chewy chocolate cookies stuffed with a generous Nutella centre. 1 piece.',
     tagline: 'Har dil mein ek Nutella ka darya',
-    image: '/images/menu/Main%20Menu/chef%20specials.webp',
-    heroImage: '/images/menu/Main%20Menu/chef%20specials.webp',
+    image: '/images/menu/Brainy-Bites/Nutella-Cookie.png',
+    heroImage: '/images/menu/Brainy-Bites/Nutella-Cookie.png',
   },
   {
     id: 'date-cake-toffee-sauce',
@@ -741,8 +738,8 @@ export const menuItems: MenuItem[] = [
     price: '₺150',
     shortDescription: 'Sticky, rich date cake drenched in warm toffee sauce. 1 slice.',
     tagline: 'Khajoor ki meethas, toffee ka jaadu',
-    image: '/images/menu/Main%20Menu/chef%20specials.webp',
-    heroImage: '/images/menu/Main%20Menu/chef%20specials.webp',
+    image: '/images/menu/Brainy-Bites/Toffee-Date-Cake.png',
+    heroImage: '/images/menu/Brainy-Bites/Toffee-Date-Cake.png',
   },
   {
     id: 'red-velvet-cookies',
@@ -751,8 +748,8 @@ export const menuItems: MenuItem[] = [
     price: '₺160',
     shortDescription: 'Soft, pillowy red velvet cookies with a cream cheese swirl. 1 piece.',
     tagline: 'Red mein chhupi hai meethi kahani',
-    image: '/images/menu/Main%20Menu/chef%20specials.webp',
-    heroImage: '/images/menu/Main%20Menu/chef%20specials.webp',
+    image: '/images/menu/Brainy-Bites/Red-Velvet-Cookie.png',
+    heroImage: '/images/menu/Brainy-Bites/Red-Velvet-Cookie.png',
   },
   {
     id: 'chocolate-fudge-brownie',
@@ -761,8 +758,8 @@ export const menuItems: MenuItem[] = [
     price: '₺250',
     shortDescription: 'Dense, fudgy chocolate brownie with a crackly top and gooey centre. 1 piece.',
     tagline: 'Chocolate ka sab se sachcha ishq',
-    image: '/images/menu/Main%20Menu/chef%20specials.webp',
-    heroImage: '/images/menu/Main%20Menu/chef%20specials.webp',
+    image: '/images/menu/Brainy-Bites/Chocolate-Fudge-Brownie.png',
+    heroImage: '/images/menu/Brainy-Bites/Chocolate-Fudge-Brownie.png',
   },
 ];
 

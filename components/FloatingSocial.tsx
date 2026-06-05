@@ -1,7 +1,7 @@
 'use client';
 
 // WhatsApp number (international format, no + or spaces)
-const WA_NUMBER = '905075158651';
+const WA_NUMBER = '903123437000';
 const WA_MESSAGE = encodeURIComponent('Assalam-o-Alaikum! I would like to know more about Mor Pankh.');
 const WA_LINK = `https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`;
 const IG_LINK = 'https://www.instagram.com/morpankh.restaurant';

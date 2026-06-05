@@ -25,32 +25,8 @@ interface DishDetailClientProps {
 
 export default function DishDetailClient({ item }: DishDetailClientProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const videoOverlayRef = useRef<HTMLDivElement>(null);
   const [activeSection, setActiveSection] = useState(0);
   const hasSections = !!item.sections;
-
-  // Fade out near end, restart, fade back in
-  const handleTimeUpdate = () => {
-    const vid = videoRef.current;
-    const overlay = videoOverlayRef.current;
-    if (!vid || !overlay || !vid.duration) return;
-    if (vid.duration - vid.currentTime < 0.15) {
-      overlay.style.opacity = '1';
-    }
-  };
-
-  const handleEnded = () => {
-    const vid = videoRef.current;
-    const overlay = videoOverlayRef.current;
-    if (!vid) return;
-    vid.currentTime = 0;
-    vid.play();
-    // Brief pause at black before fading back in
-    setTimeout(() => {
-      if (overlay) overlay.style.opacity = '0';
-    }, 80);
-  };
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -76,46 +52,15 @@ export default function DishDetailClient({ item }: DishDetailClientProps) {
       <div ref={containerRef} style={{ height: hasSections ? '480vh' : '100dvh' }} className="relative">
         <div className="sticky top-0 overflow-hidden" style={{ height: '100dvh' }}>
 
-          {/* Background — video or image */}
-          {item.heroVideo ? (
-            <>
-              <video
-                ref={videoRef}
-                src={item.heroVideo}
-                autoPlay
-                muted
-                playsInline
-                onTimeUpdate={handleTimeUpdate}
-                onEnded={handleEnded}
-                style={{
-                  position: 'absolute',
-                  top: '50%',
-                  left: '50%',
-                  transform: 'translate(-50%, -50%) translateZ(0)',
-                  minWidth: '100%',
-                  minHeight: '100%',
-                  width: 'auto',
-                  height: 'auto',
-                  willChange: 'transform',
-                }}
-              />
-              {/* Black overlay for smooth loop transition */}
-              <div
-                ref={videoOverlayRef}
-                className="absolute inset-0 bg-black pointer-events-none"
-                style={{ opacity: 0, transition: 'opacity 0.1s ease' }}
-              />
-            </>
-          ) : (
-            <Image
-              src={item.heroImage}
-              alt={item.name}
-              fill
-              priority
-              className="object-cover"
-              sizes="100vw"
-            />
-          )}
+          {/* Background image */}
+          <Image
+            src={item.heroImage}
+            alt={item.name}
+            fill
+            priority
+            className="object-cover"
+            sizes="100vw"
+          />
 
           {/* Dark gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/55 to-black/75" />
