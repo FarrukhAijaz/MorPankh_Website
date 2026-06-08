@@ -7,12 +7,16 @@ const footerLinks = {
     { label: 'Contact',  href: '/contact' },
   ],
   Menu: [
-    { label: 'Roadside Bites',          href: '/menu?cat=roadside-bites' },
-    { label: "Morpankh's Signatures",   href: '/menu?cat=signatures' },
-    { label: 'Flame Junction',           href: '/menu?cat=flame-junction' },
-    { label: 'Tandoor Express',          href: '/menu?cat=tandoor-express' },
-    { label: 'Thaali Deals',             href: '/menu?cat=thaali-deals' },
-    { label: 'Drinks',                   href: '/menu?cat=drinks' },
+    { label: 'Roadside Bites',              href: '/menu?cat=roadside-bites' },
+    { label: "Morpankh's Signatures",       href: '/menu?cat=signatures' },
+    { label: 'Flame Junction',              href: '/menu?cat=flame-junction' },
+    { label: 'Tandoor Express',             href: '/menu?cat=tandoor-express' },
+    { label: 'Thaali Deals',                href: '/menu?cat=thaali-deals' },
+    { label: 'Weekend Special Breakfast',   href: '/menu?cat=weekend-breakfast' },
+    { label: 'Weekend Special Thaali',      href: '/menu?cat=weekend-thaali' },
+    { label: 'Heritage Sweets',             href: '/menu?cat=heritage-sweets' },
+    { label: 'Brainy Bites',                href: '/menu?cat=brainy-bites' },
+    { label: 'Drinks',                      href: '/menu?cat=drinks' },
   ],
 };
 
