@@ -553,7 +553,7 @@ export const menuItems: MenuItem[] = [
     name: 'Sweet / Salty Lassi',
     category: 'drinks',
     price: '₺110',
-    shortDescription: 'Classic churned dahi lassi — choose sweet (cardamom & malai) or salty (black salt & cumin)'.
+    shortDescription: 'Classic churned dahi lassi — choose sweet (cardamom & malai) or salty (black salt & cumin)',
     tagline: 'Punjab ki sab se meeti mohabbat',
     image: '/images/menu/Drinks/Sweet-Salty-Lassi.png',
     heroImage: '/images/menu/Drinks/Sweet-Salty-Lassi.png',
@@ -564,7 +564,7 @@ export const menuItems: MenuItem[] = [
     name: 'Ice Tea',
     category: 'drinks',
     price: '₺80',
-    shortDescription: 'House-brewed black tea, chilled and sweetened with honey and fresh lemon'.
+    shortDescription: 'House-brewed black tea, chilled and sweetened with honey and fresh lemon',
     tagline: 'Thandak mein bhi khushboo',
     image: '/images/menu/Drinks/Ice-Tea.png',
     heroImage: '/images/menu/Drinks/Ice-Tea.png',
@@ -574,7 +574,7 @@ export const menuItems: MenuItem[] = [
     name: 'Banana Shake',
     category: 'drinks',
     price: '₺120',
-    shortDescription: 'Thick ripe banana blended with whole milk and a hint of vanilla'.
+    shortDescription: 'Thick ripe banana blended with whole milk and a hint of vanilla',
     tagline: 'Pehli sip pe muskurahat',
     image: '/images/menu/Drinks/Banana-Shake.png',
     heroImage: '/images/menu/Drinks/Banana-Shake.png',
@@ -584,7 +584,7 @@ export const menuItems: MenuItem[] = [
     name: 'Mint Margarita',
     category: 'drinks',
     price: '₺125',
-    shortDescription: 'Blended fresh mint, lime, sugar and soda — Pakistan\'s favourite café refresher'.
+    shortDescription: 'Blended fresh mint, lime, sugar and soda — Pakistan\'s favourite café refresher',
     tagline: 'Hari bhali, thand bhari',
     image: '/images/menu/Drinks/Mint-Margarita.png',
     heroImage: '/images/menu/Drinks/Mint-Margarita.png',
@@ -594,7 +594,7 @@ export const menuItems: MenuItem[] = [
     name: 'Strawberry Lemonade',
     category: 'drinks',
     price: '₺130',
-    shortDescription: 'Fresh strawberry purée blended with lemon juice and chilled soda'.
+    shortDescription: 'Fresh strawberry purée blended with lemon juice and chilled soda',
     tagline: 'Khatta meetha, taza taza',
     image: '/images/menu/Drinks/Strawberry-Lemonade.png',
     heroImage: '/images/menu/Drinks/Strawberry-Lemonade.png',
@@ -604,7 +604,7 @@ export const menuItems: MenuItem[] = [
     name: 'Cold Coffee',
     category: 'drinks',
     price: '₺150',
-    shortDescription: 'Chilled blended coffee with milk and a touch of sugar'.
+    shortDescription: 'Chilled blended coffee with milk and a touch of sugar',
     tagline: 'Coffee lovers ka dil ka khaana',
     image: '/images/menu/Drinks/Cold-Coffee.png',
     heroImage: '/images/menu/Drinks/Cold-Coffee.png',
@@ -624,7 +624,7 @@ export const menuItems: MenuItem[] = [
     name: 'Turkish Tea',
     category: 'drinks',
     price: '₺40',
-    shortDescription: 'Classic double-brewed red Turkish tea served in traditional tulip glasses'.
+    shortDescription: 'Classic double-brewed red Turkish tea served in traditional tulip glasses',
     tagline: 'Istanbul se Mor Pankh tak',
     image: '/images/menu/Drinks/Turkish-tea.png',
     heroImage: '/images/menu/Drinks/Turkish-tea.png',
@@ -634,7 +634,7 @@ export const menuItems: MenuItem[] = [
     name: 'Soft Drink',
     category: 'drinks',
     price: '₺70',
-    shortDescription: 'Chilled canned soft drink — Pepsi, 7Up, Mirinda, or Mountain Dew'.
+    shortDescription: 'Chilled canned soft drink — Pepsi, 7Up, Mirinda, or Mountain Dew',
     tagline: 'Thanda matlab Mor Pankh',
     image: '/images/menu/Drinks/Soft-Drink.png',
     heroImage: '/images/menu/Drinks/Soft-Drink.png',
@@ -644,7 +644,7 @@ export const menuItems: MenuItem[] = [
     name: 'Karak Chai',
     category: 'drinks',
     price: '₺65',
-    shortDescription: 'Strong, spiced full-milk chai simmered with cardamom, black pepper and cinnamon'.
+    shortDescription: 'Strong, spiced full-milk chai simmered with cardamom, black pepper and cinnamon',
     tagline: 'Roz ki subah, dil ki zaroorat',
     image: '/images/menu/Drinks/Karak-Chai.png',
     heroImage: '/images/menu/Drinks/Karak-Chai.png',
@@ -654,7 +654,7 @@ export const menuItems: MenuItem[] = [
     name: 'Kehwa (Green Tea)',
     category: 'drinks',
     price: '₺55',
-    shortDescription: 'Traditional green tea infused with saffron, cardamom, cinnamon and almonds'.
+    shortDescription: 'Traditional green tea infused with saffron, cardamom, cinnamon and almonds',
     tagline: 'Sheer chai ki ruh, kehwa ki soorat',
     image: '/images/menu/Drinks/Kehwa_Green-Tea.png',
     heroImage: '/images/menu/Drinks/Kehwa_Green-Tea.png',
@@ -746,7 +746,7 @@ export const menuItems: MenuItem[] = [
     name: 'Date Cake with Toffee Sauce',
     category: 'brainy-bites',
     price: '₺190',
-    shortDescription: 'Sticky, rich date cake drenched in warm toffee sauce. 1 slice'.
+    shortDescription: 'Sticky, rich date cake drenched in warm toffee sauce. 1 slice',
     tagline: 'Khajoor ki meethas, toffee ka jaadu',
     image: '/images/menu/Brainy-Bites/Toffee-Date-Cake.png',
     heroImage: '/images/menu/Brainy-Bites/Toffee-Date-Cake.png',
